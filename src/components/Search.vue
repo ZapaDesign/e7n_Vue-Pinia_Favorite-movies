@@ -13,8 +13,8 @@
 <script setup>
 import { ref } from 'vue'
 import { useSearchStore } from '../stores/SearchStore'
-import Movie from '../components/Movie.vue'
-import Loader from '../components/Loader.vue'
+import Movie from '@c/Movie.vue'
+import Loader from '@c/Loader.vue'
 
 const searchStore = useSearchStore()
 const searchMovie = ref('')

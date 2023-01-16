@@ -20,8 +20,8 @@
 </template>
 
 <script setup>
-import { useMoviesStore } from '../stores/MoviesStore'
-import { useSearchStore } from '../stores/SearchStore';
+import { useMoviesStore } from '@s/MoviesStore'
+import { useSearchStore } from '@s/SearchStore';
 const moviesStore = useMoviesStore()
 const searchStore = useSearchStore()
 

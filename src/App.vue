@@ -29,8 +29,8 @@
 </template>
 
 <script setup>
-import Movie from './components/Movie.vue'
-import Search from './components/Search.vue'
+import Movie from '@c/Movie.vue'
+import Search from '@c/Search.vue'
 import { useMoviesStore } from './stores/MoviesStore'
 
 const moviesStore = useMoviesStore()
